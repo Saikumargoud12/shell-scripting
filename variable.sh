@@ -6,3 +6,4 @@ echo value of a is $a
 DATE=$(date)
 
 echo today date is $DATE
+echo value of x=$x
