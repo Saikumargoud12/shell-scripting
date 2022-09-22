@@ -5,3 +5,12 @@ then
   else
     echo $a is less than 25
     fi
+  x="abc"
+  if [$x="abc"];then
+    echo yes both are equal
+    fi
+
+file=/tmp/new
+if [-f $file];then
+  echo file exits
+  fi
