@@ -11,6 +11,6 @@ then
     fi
 
 file=/tmp/new
-if [-f $file];then
-  echo file exits
+if[-f file];then
+  echo file exists
   fi
