@@ -2,7 +2,7 @@
 
 ## Declaration way 1
 
-FUNCTION sample() {
+function sample() {
   echo SAMPLE FUNCTION
 }
 
