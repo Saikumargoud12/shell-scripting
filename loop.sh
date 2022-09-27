@@ -6,7 +6,7 @@
 
 a=10
 
-while [$a -gt 0]; do
+while [ $a -gt 0 ]; do
   echo hello - $a
   a=$(($a-1))
   sleep 1
@@ -14,7 +14,7 @@ while [$a -gt 0]; do
 
 #loop conditions executes until the expression fails
  for fruit in apple banana orange; do
-   echo fruit name =$fruit
+   echo fruit name = $fruit
    sleep 1
 done
 
